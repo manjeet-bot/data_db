@@ -1,1 +1,12 @@
+services:
+  - type: web
+    name: employee-portal
+    runtime: docker
+    repo: 
+    branch: main
+    envVars:
+      - key: DATABASE_URL
+        value: postgres://postgresql://database_sj5u_user:EefL6ExPork5PRiqqhKjQ1Qiu4E0cYkq@dpg-cvk2ghmuk2gs73a5gfv0-a/database_sj5u
+    buildCommand: ""
+    startCommand: "apache2-foreground"
 
