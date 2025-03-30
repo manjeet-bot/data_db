@@ -2,7 +2,7 @@ services:
   - type: web
     name: employee-portal
     runtime: docker
-    repo: https://github.com/manjeet-bot/data_db.git
+    repo: https://github.com/manjeet-bot/data_db
     branch: main
     envVars:
       - key: DATABASE_URL
